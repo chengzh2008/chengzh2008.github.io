@@ -1,5 +1,6 @@
+#!/bin/bash
 
-rarily store uncommited changes
+# temporararily store uncommited changes
 git stash
 
 # Verify correct branch
