@@ -1,17 +1,14 @@
 ---
 title: About
 ---
-Nullam imperdiet sodales orci vitae molestie. Nunc quam orci, pharetra a
-rhoncus vitae, eleifend id felis. Suspendisse potenti. Etiam vitae urna orci.
-Quisque pellentesque dignissim felis, egestas tempus urna luctus vitae. In hac
-habitasse platea dictumst. Morbi fringilla mattis odio, et mattis tellus
-accumsan vitae.
 
-1. Amamus Unicode 碁
-2. Interdum nex magna.
+Used to be a research scientist/structural biologist. The exciting moment was when I uncovered the internal atomic 3D images of those interest macro-molecules, those little harding-working guys in our body.
 
-Vivamus eget mauris sit amet nulla laoreet lobortis. Nulla in diam elementum
-risus convallis commodo. Cras vehicula varius dui vitae facilisis. Proin
-elementum libero eget leo aliquet quis euismod orci vestibulum. Duis rhoncus
-lorem consequat tellus vestibulum aliquam. Quisque orci orci, malesuada porta
-blandit et, interdum nec magna.
+Due to those heavy computational works for research, I fell in love with code. I taught myself everything related to computer and programming. Starting with Java, then python, then JavaScript, then clouds and more. I enjoy writing clean and excellent code to solve real world problem.
+
+#javascript
+#java
+#python
+#webdevelopment
+#softwareengineering
+#machinelearning
