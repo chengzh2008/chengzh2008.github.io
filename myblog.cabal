@@ -5,9 +5,9 @@ description:         Please see README.md
 homepage:            https://github.com/chengzh2008/myblog#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2016 Author name here
+author:              Zhihong Cheng
+maintainer:          chengzh2008@gmail.com
+copyright:           2016 Zhihong Cheng
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
