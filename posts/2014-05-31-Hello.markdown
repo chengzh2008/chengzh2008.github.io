@@ -1,0 +1,6 @@
+---
+title: Hello, Whole Wild Web 
+---
+
+
+This is my first blog about learning code after I decided to switch my career to web development a couple of months ago.I try to blog those most significant part of my learning. 
