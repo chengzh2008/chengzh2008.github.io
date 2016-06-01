@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # temporararily store uncommited changes
-git stash
+git stash && \
 
 # Verify correct branch
 git checkout develop && \
