@@ -34,7 +34,29 @@
 <p>Handle the situation that one list is longer than the other.</p>
 <p>Three variables point to two original lists and one output list.</p>
 <p>/** * Definition for singly-linked list. * public class ListNode { * int val; * ListNode next; * ListNode(int x) { * val = x; * next = null; * } * } */</p>
-<p>public class Solution { public ListNode addTwoNumbers(ListNode l1, ListNode l2) { int carry = 0; // remember the sum for each digit…………. ListNode newHead = new ListNode(0); ListNode p1 = l1, p2 = l2, p3 = newHead; while(p1!=null ||p2!=null){ if(p1!=null){ carry += p1.val; p1 = p1.next; } if(p2!=null){ carry += p2.val; p2 = p2.next; } p3.next = new ListNode(carry%10); // get mod of carry by 10, save it as the value for p3.next p3=p3.next; carry /=10; } if(carry == 1) p3.next = new ListNode(1); return newHead.next; } }</p>
+<div class="sourceCode"><pre class="sourceCode java"><code class="sourceCode java"><span class="kw">public</span> <span class="kw">class</span> Solution {
+    <span class="kw">public</span> ListNode <span class="fu">addTwoNumbers</span>(ListNode l1, ListNode l2) {
+        <span class="dt">int</span> carry = <span class="dv">0</span>;  <span class="co">// remember the sum for each digit………….</span>
+        ListNode newHead = <span class="kw">new</span> <span class="fu">ListNode</span>(<span class="dv">0</span>);
+        ListNode p1 = l1, p2 = l2, p3 = newHead;
+        <span class="kw">while</span>(p1!=<span class="kw">null</span> ||p2!=<span class="kw">null</span>){
+            <span class="kw">if</span>(p1!=<span class="kw">null</span>){
+                carry += p1.<span class="fu">val</span>;
+                p1 = p1.<span class="fu">next</span>;
+            }
+            <span class="kw">if</span>(p2!=<span class="kw">null</span>){
+                carry += p2.<span class="fu">val</span>;
+                p2 = p2.<span class="fu">next</span>;
+            }
+            p3.<span class="fu">next</span> = <span class="kw">new</span> <span class="fu">ListNode</span>(carry%<span class="dv">10</span>);  <span class="co">// get mod of carry by 10, save it as the value for p3.next</span>
+            p3=p3.<span class="fu">next</span>;
+            carry /=<span class="dv">10</span>;
+        }
+        <span class="kw">if</span>(carry == <span class="dv">1</span>)
+            p3.<span class="fu">next</span> = <span class="kw">new</span> <span class="fu">ListNode</span>(<span class="dv">1</span>);
+        <span class="kw">return</span> newHead.<span class="fu">next</span>;
+    }
+}</code></pre></div>
 
         </div>
         <div id="footer">
