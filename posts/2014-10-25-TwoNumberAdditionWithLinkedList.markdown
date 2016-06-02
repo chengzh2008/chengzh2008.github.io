@@ -14,7 +14,7 @@ You need a variable to remember sum of each digit.
 Handle the situation that one list is longer than the other.
 
 Three variables point to two original lists and one output list.
-
+``` java
 /**
 * Definition for singly-linked list.
 * public class ListNode {
@@ -26,6 +26,7 @@ Three variables point to two original lists and one output list.
 * }
 * }
 */
+```
 
 ``` java
 public class Solution {
