@@ -27,6 +27,7 @@ Three variables point to two original lists and one output list.
 * }
 */
 
+``` java
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;  // remember the sum for each digit………….
@@ -50,4 +51,4 @@ public class Solution {
         return newHead.next;
     }
 }
-
+```
